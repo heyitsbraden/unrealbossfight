@@ -1,0 +1,24 @@
+Begin Object Class=/Script/Paper2D.PaperSprite Name="PlaceholderSprite_Sprite"
+   Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0"
+   End Object
+   Begin Object Name="BodySetup_0"
+      AggGeom=(BoxElems=((Center=(X=0.000000,Y=0.000000,Z=-25.000000),X=120.000000,Y=10.000000,Z=150.000000)))
+      DefaultInstance=(ObjectType=ECC_WorldDynamic,CollisionProfileName="BlockAllDynamic")
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   SourceTextureDimension=(X=200.000000,Y=200.000000)
+   SourceDimension=(X=200.000000,Y=200.000000)
+   SourceTexture=/Game/2DSideScroller/Sprites/PlaceholderSprite.PlaceholderSprite
+   BakedSourceDimension=(X=200.000000,Y=200.000000)
+   BakedSourceTexture=Texture2D'"/Game/2DSideScroller/Sprites/PlaceholderSprite.PlaceholderSprite"'
+   PixelsPerUnrealUnit=1.000000
+   BodySetup=BodySetup'"BodySetup_0"'
+   CollisionGeometry=(Shapes=((Vertices=((X=-60.000000,Y=-75.000000),(X=60.000000,Y=-75.000000),(X=60.000000,Y=75.000000),(X=-60.000000,Y=75.000000)),BoxSize=(X=120.000000,Y=150.000000),BoxPosition=(X=100.000000,Y=125.000000))))
+   RenderGeometry=(Shapes=((Vertices=((X=-60.000000,Y=-75.000000),(X=60.000000,Y=-75.000000),(X=60.000000,Y=75.000000),(X=-60.000000,Y=75.000000)),BoxSize=(X=120.000000,Y=150.000000),BoxPosition=(X=100.000000,Y=125.000000))))
+   BakedRenderData(0)=(X=60.000000,Y=50.000000,Z=0.800000,W=0.250000)
+   BakedRenderData(1)=(X=-60.000000,Y=50.000000,Z=0.200000,W=0.250000)
+   BakedRenderData(2)=(X=-60.000000,Y=-100.000000,Z=0.200000,W=1.000000)
+   BakedRenderData(3)=(X=60.000000,Y=-100.000000,Z=0.800000,W=1.000000)
+   BakedRenderData(4)=(X=60.000000,Y=50.000000,Z=0.800000,W=0.250000)
+   BakedRenderData(5)=(X=-60.000000,Y=-100.000000,Z=0.200000,W=1.000000)
+End Object
